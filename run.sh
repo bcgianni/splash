@@ -1,1 +1,2 @@
-python3 /app/bin/splash --proxy-profiles-path /app/etc/splash/proxy-profiles --js-profiles-path /app/etc/splash/js-profiles --filters-path /app/etc/splash/filters --lua-package-path /app/etc/splash/lua_modules/?.lua --port $PORT
+python3 /app/bin/splash --filters-path app/etc/splash/filters --port $PORT --maxrss 400
+
